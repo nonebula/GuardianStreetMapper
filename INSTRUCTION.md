@@ -13,7 +13,7 @@ You and your group will use everything you’ve learned to create a real-world c
 * Must deploy this application using Netlify.
 <!-- deploy to netlify -->
 * Must utilize at least two libraries, packages, or technologies that we haven't discussed.
-<!-- LIBRARIES TO BE SETTLED ON -->
+<!-- LIBRARIES TO BE SETTLED ON express.js, map? [leaflet?] -->
 * Must have a polished front end/UI.
 <!-- build components, wireframe drawn up, css styling (modules) -->
 * Must meet good quality coding standards (indentation, scoping, naming).
