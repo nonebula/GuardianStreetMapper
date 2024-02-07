@@ -2,9 +2,8 @@ import React from 'react';
 import { MapContainer as LeafletMap, TileLayer, Marker, Popup } from 'react-leaflet';
 import "leaflet/dist/leaflet.css";
 import L from 'leaflet';
-import "./style.css";
 import { Component } from 'react';
-
+import styles from "./MapComponent.module.css"
 
 function MapComponent() {
     // Custom icon 
@@ -16,9 +15,10 @@ function MapComponent() {
     });
 
     // onClick Marker 
-    const handleMapClick = (e) => {
-        setPosition([e.latlng.lat, e.latlng.lng]);
-      };
+    const handleClick = event => {
+        const { lat, lng } = event.latlng;
+        console.log(`Accident at ${lat}, ${lng}`);
+    };
 
     const markers = [
         { position: [51.5072, 0.1276] }
@@ -30,7 +30,7 @@ function MapComponent() {
                        url="https://tile.openstreetmap.org/{z}/{x}/{y}.png" />
 
             {markers.map((marker, index) => (
-                <Marker key={index} position={marker.position} onClick={handleMapClick} icon={customIcon} draggable={true} />
+                <Marker key={index} position={marker.position} onClick={handleClick} icon={customIcon} draggable={true} />
             ))}
         </LeafletMap>
     );
