@@ -1,9 +1,5 @@
 import React from 'react';
-<<<<<<< HEAD
-// import styles from "./module.css"
-=======
 import styles from "./Footer.module.css"
->>>>>>> 986c9da4bc1f34d259a2a493074897ed709a11e6
 
 function Footer() {
   return (
