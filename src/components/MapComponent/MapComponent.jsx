@@ -4,7 +4,7 @@ import "leaflet/dist/leaflet.css";
 import L from 'leaflet';
 import "./style.css";
 import { Component } from 'react';
-
+import styles from "./MapComponent.module.css"
 
 function MapComponent() {
     // Custom icon 
