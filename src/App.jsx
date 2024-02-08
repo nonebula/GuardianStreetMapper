@@ -16,7 +16,7 @@ function App() {
       <div className="App">
         <Header />
         <Routes>
-          <Route exact path="/" element={<MapComponent />} />
+          <Route exact path="/home" element={<MapComponent />} />
           <Route path="/report" element={<ReportForm />} />
           <Route path="/privacy" element={<PrivacyNotice />} />
           <Route path="/terms" element={<TermsOfService />} />
