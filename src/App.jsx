@@ -9,6 +9,7 @@ import TermsOfService from "./components/TermsOfService/";
 import TipsAndInfo from "./components/TipsAndInformation/";
 import Support from "./components/Support/";
 import ContactUs from "./components/ContactUs";
+import './App.css';
 
 function App() {
   return (
