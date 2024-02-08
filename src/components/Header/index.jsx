@@ -1,6 +1,6 @@
-import React from 'react';
-import logo from './logo.png';
-import { Navbar, Nav } from 'react-bootstrap';
+import React from "react";
+import logo from "./logo.png";
+import { Navbar, Nav } from "react-bootstrap";
 // import style from "./style.css"
 
 function Header() {
@@ -14,9 +14,9 @@ function Header() {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ml-auto">
-              <Nav.Link href="#">Tips & Information</Nav.Link>
-              <Nav.Link href="#">Support</Nav.Link>
-              <Nav.Link href="#">Contact Us</Nav.Link>
+              <Nav.Link href="/tips">Tips & Information</Nav.Link>
+              <Nav.Link href="/support">Support</Nav.Link>
+              <Nav.Link href="/contact">Contact Us</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </div>
