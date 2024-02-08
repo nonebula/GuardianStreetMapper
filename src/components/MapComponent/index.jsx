@@ -3,7 +3,8 @@ import { MapContainer as LeafletMap, TileLayer, Marker, Popup } from 'react-leaf
 import "leaflet/dist/leaflet.css";
 import L from 'leaflet';
 import { Component } from 'react';
-// import style from "./style.css"
+import "./style.css";
+
 
 function MapComponent() {
     // Custom icon 
