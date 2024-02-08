@@ -4,12 +4,12 @@ import "leaflet/dist/leaflet.css";
 import L from 'leaflet';
 import { Component } from 'react';
 import "./style.css";
-
+import icon from "./danger.png";
 
 function MapComponent() {
     // Custom icon 
     const customIcon = L.icon({
-        iconUrl: './danger.png',
+        iconUrl: icon,
         iconSize: [38, 38],
         iconAnchor: [22, 94],
         popupAnchor: [-3, -76]
