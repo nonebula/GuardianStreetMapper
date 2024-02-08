@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from "./ReportForm.module.css"
+import style from "./style.css"
 
 function ReportForm() {
   // Logic for handling form submission and validation can be added here
