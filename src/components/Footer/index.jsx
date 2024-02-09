@@ -2,8 +2,8 @@ import React from "react";
 import PrivacyNotice from "../PrivacyNotice";
 import TermsOfService from "../TermsOfService";
 import { Link } from "react-router-dom";
+//iport style from "./style.css"
 
-// import style from "./style.css"
 function Footer() {
   return (
     <footer>
