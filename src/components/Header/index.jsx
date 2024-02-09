@@ -8,7 +8,7 @@ function Header() {
     <header className="header">
       <Navbar bg="body-tertiary" expand="lg">
         <div className="container">
-          <Navbar.Brand href="/home">
+          <Navbar.Brand href="/">
             <img src={logo} alt="Application Logo" width="150" height="50" />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
