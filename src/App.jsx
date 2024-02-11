@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Header from "./components/Header/";
-import MapComponent from "../MapComponent";
+import MapComponent from "./components/MapComponent";
 import ReportForm from "./components/ReportForm/";
 import Footer from "./components/Footer/";
 import PrivacyNotice from "./components/PrivacyNotice";
@@ -9,7 +9,8 @@ import TermsOfService from "./components/TermsOfService/";
 import TipsAndInfo from "./components/TipsAndInformation/";
 import Support from "./components/Support/";
 import ContactUs from "./components/ContactUs";
-import './App.css';
+// import CrimeDataComponent from "./components/CrimeDataComponent";
+import "./App.css";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Routes>
           <Route exact path="/" element={<MapComponent />} />
           <Route path="/" element={<ReportForm />} />
+          {/* <Route path="/" element={<CrimeDataComponent />} /> */}
           <Route path="/privacy" element={<PrivacyNotice />} />
           <Route path="/terms" element={<TermsOfService />} />
           <Route path="/tips" element={<TipsAndInfo />} />
