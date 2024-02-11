@@ -1,15 +1,16 @@
-import React, { useState } from "react";
+import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Header from "./components/Header/";
 import MapComponent from "./components/MapComponent";
 import ReportForm from "./components/ReportForm/";
+import About from "./components/About/";
+// import CrimeDataComponent from "./components/CrimeDataComponent";
 import Footer from "./components/Footer/";
 import PrivacyNotice from "./components/PrivacyNotice";
 import TermsOfService from "./components/TermsOfService/";
 import TipsAndInfo from "./components/TipsAndInformation/";
 import Support from "./components/Support/";
 import ContactUs from "./components/ContactUs";
-// import CrimeDataComponent from "./components/CrimeDataComponent";
 import "./App.css";
 
 function App() {
@@ -18,9 +19,8 @@ function App() {
       <div className="App">
         <Header />
         <Routes>
-          <Route exact path="/" element={<MapComponent />} />
-          <Route path="/" element={<ReportForm />} />
-          {/* <Route path="/" element={<CrimeDataComponent />} /> */}
+          <Route path="/" element={<HomePage />} />
+          <Route path="/about" element={<About />} />
           <Route path="/privacy" element={<PrivacyNotice />} />
           <Route path="/terms" element={<TermsOfService />} />
           <Route path="/tips" element={<TipsAndInfo />} />
@@ -32,4 +32,16 @@ function App() {
     </Router>
   );
 }
+
+// Added to separate homepage from others
+function HomePage() {
+  return (
+    <>
+      <MapComponent />
+      <ReportForm />
+      {/* <CrimeDataComponent /> */}
+    </>
+  );
+}
+
 export default App;
