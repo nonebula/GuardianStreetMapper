@@ -20,3 +20,66 @@ padding: 10px;
 .numberedItem {
 
 }
+
+
+.submitButton{
+  padding: 7px;
+  margin-top: 5px;
+  width: 300px;
+  background-color: var(--color-button);
+  color: var(--color-button-text);
+  border: none;
+  border-radius: 4px;
+}
+
+.submitButton:hover{
+  padding: 7px;
+  margin-top: 5px;
+  width: 300px;
+  background-color: var(--color-button-hover);
+  color: var(--color-button-text-hover);
+  border: none;
+  border-radius: 4px;
+}
+
+/* ReCaptcha Form Styling */
+.input{
+    width: 295px;
+    height: 30px;
+    border: rgb(122, 195, 238) 2px solid;
+    display: block;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    
+  }
+  
+  .input:focus{
+    border: none;
+    
+  }
+  
+  label{
+    display: block;
+    margin-bottom: 2px;
+    font-family: 'Roboto', Arial, sans-serif;
+  
+  }
+  
+  @keyframes logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    a:nth-of-type(2) .logo {
+      animation: logo-spin infinite 20s linear;
+    }
+  }
+  
+  /* end */
+  
+  

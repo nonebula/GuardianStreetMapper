@@ -37,7 +37,7 @@ const Captcha = () => {
 
   return (
     <div>
-      <button onClick={executeCaptcha}>Submit Incident</button>
+      <button className={styles.submitButton}onClick={executeCaptcha}>Submit Incident</button>
     </div>
   );
 };
