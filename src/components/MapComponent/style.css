@@ -17,3 +17,9 @@
   border-radius: 30px;
   overflow: hidden;
 }
+
+.header {
+  padding: 10px;
+color: #235580;
+text-align: center;
+}
