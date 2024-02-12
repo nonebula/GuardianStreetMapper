@@ -25,7 +25,7 @@
   
   .footerButton:hover {
     color: var(--color-button-text-hover);
-    background-color: var(--color-hover);
+    background-color: var(--color-button-hover);
   }
   
   p.copyright {
