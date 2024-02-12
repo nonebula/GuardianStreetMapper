@@ -1,5 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import styles from "./App.module.css";
 import Header from "./components/Header/";
 import MapComponent from "./components/MapComponent";
 import ReportForm from "./components/ReportForm/";
@@ -11,12 +12,11 @@ import TermsOfService from "./components/TermsOfService/";
 import TipsAndInfo from "./components/TipsAndInformation/";
 import Support from "./components/Support/";
 import ContactUs from "./components/ContactUs";
-import "./App.css";
 
 function App() {
   return (
     <Router>
-      <div className="App">
+      <div className={styles.App}>
         <Header />
         <Routes>
           <Route path="/" element={<HomePage />} />
@@ -36,11 +36,13 @@ function App() {
 // Added to separate homepage from others
 function HomePage() {
   return (
-    <>
+    <div className={styles.homePage}>
       <MapComponent />
-      <ReportForm />
+      <div className={styles.formContainer}>
+        <ReportForm />
+      </div>
       {/* <CrimeDataComponent /> */}
-    </>
+    </div>
   );
 }
 

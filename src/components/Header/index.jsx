@@ -1,26 +1,26 @@
 import React from "react";
 import logo from "./logo.png";
 import { Navbar, Nav } from "react-bootstrap";
-// import style from "./style.css"
+import styles from "./Header.module.css";
 
 function Header() {
   return (
-    <header className="header">
-      <Navbar bg="body-tertiary" expand="lg">
-        <div className="container">
-          <Navbar.Brand href="/">
+    <header className={styles.header}>
+      <Navbar className={styles.navbar} expand="lg">
+        {/* <div className={styles.container}> */}
+          <Navbar.Brand className={styles.logo} href="/">
             <img src={logo} alt="Application Logo" width="150" height="50" />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="ml-auto">
-              <Nav.Link href="/about">About</Nav.Link>
-              <Nav.Link href="/tips">Tips & Information</Nav.Link>
-              <Nav.Link href="/support">Support</Nav.Link>
-              <Nav.Link href="/contact">Contact Us</Nav.Link>
+            <Nav className={styles.navLinks}>
+              <Nav.Link className={styles.navLink} href="/about">About</Nav.Link>
+              <Nav.Link className={styles.navLink} href="/tips">Tips & Information</Nav.Link>
+              <Nav.Link className={styles.navLink} href="/support">Support</Nav.Link>
+              <Nav.Link className={styles.navLink} href="/contact">Contact Us</Nav.Link>
             </Nav>
           </Navbar.Collapse>
-        </div>
+        {/* </div> */}
       </Navbar>
     </header>
   );

@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { Button, Form } from "react-bootstrap";
 import Captcha from "../Captcha";
-import "./style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import styles from "./ReportForm.module.css";
 
 const ReportForm = () => {
   const [stolenItem, setStolenItem] = useState("");
@@ -51,41 +51,56 @@ const ReportForm = () => {
   };
 
   return (
-    <div className="report-form">
+    <div className={styles.ReportForm}>
       {!formSubmitted && (
         <>
-          <h2>Stolen Item Report</h2>
-          <Form onSubmit={handleSubmit}>
-            <Form.Group controlId="stolenItem">
-              <Form.Label>What has been stolen?</Form.Label>
+          <h2 className={styles.heading}>Stolen Item Report</h2>
+          <Form className={styles.formItems} onSubmit={handleSubmit}>
+            <Form.Group className={styles.formGroup} controlId="stolenItem">
+              <Form.Label className={styles.formLabels}>
+                What has been stolen?
+              </Form.Label>
               <Form.Control
+                className={styles.formInput}
                 type="text"
                 placeholder="Enter stolen item"
                 value={stolenItem}
                 onChange={(e) => setStolenItem(e.target.value)}
               />
             </Form.Group>
-            <Form.Group controlId="stolenTime">
-              <Form.Label>When was it stolen?</Form.Label>
+            <Form.Group className={styles.formGroup} controlId="stolenTime">
+              <Form.Label className={styles.formLabels}>
+                When was it stolen?
+              </Form.Label>
               <Form.Control
+                className={styles.formInput}
                 type="date"
                 placeholder="Enter date and time of theft"
                 value={stolenTime}
                 onChange={(e) => setStolenTime(e.target.value)}
               />
             </Form.Group>
-            <Form.Group controlId="location">
-              <Form.Label>Location of theft:</Form.Label>
+            <Form.Group className={styles.formGroup} controlId="location">
+              <Form.Label className={styles.formLabels}>
+                Location of theft:
+              </Form.Label>
               <Form.Control
+                className={styles.formInput}
                 type="text"
                 placeholder="Enter location"
                 value={location}
                 onChange={(e) => setLocation(e.target.value)}
               />
             </Form.Group>
-            <Form.Group controlId="theftDescription">
-              <Form.Label>Brief description of the theft:</Form.Label>
+            <Form.Group
+              className={styles.formGroup}
+              controlId="theftDescription"
+            >
+              <Form.Label className={styles.formLabels}>
+                Brief description of the theft:
+              </Form.Label>
               <Form.Control
+                className={styles.formInput}
                 as="textarea"
                 rows={3}
                 placeholder="Enter description"
@@ -97,15 +112,19 @@ const ReportForm = () => {
               <Captcha setCaptchaVerified={setCaptchaVerified} />
             )}
             {captchaVerified && (
-              <Button variant="primary" type="submit">
-                Submit
+              <Button
+                className={styles.submitButton}
+                variant="primary"
+                type="submit"
+              >
+                Confirm Submission
               </Button>
             )}
           </Form>
         </>
       )}
       {formSubmitted && (
-        <div className="thank-you-message">
+        <div className={styles.thankYouMessage}>
           <h3>Thank you for submitting!</h3>
           <p>
             Your report has been added to our map. If you have not already,
@@ -114,7 +133,9 @@ const ReportForm = () => {
           </p>
         </div>
       )}
-      {showNotification && <div className="notification">Form submitted!</div>}
+      {showNotification && (
+        <div className={styles.notification}>Form submitted!</div>
+      )}
     </div>
   );
 };

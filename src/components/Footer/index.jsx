@@ -2,19 +2,19 @@ import React from "react";
 import PrivacyNotice from "../PrivacyNotice";
 import TermsOfService from "../TermsOfService";
 import { Link } from "react-router-dom";
-//iport style from "./style.css"
+import styles from "./Footer.module.css";
 
 function Footer() {
   return (
-    <footer>
-      <div className="footer-buttons">
+    <footer className={styles.footer}>
+      <div className={styles.container}>
         <Link to="/privacy">
-          <button>Privacy Notice</button>
+          <button className={styles.footerButton}>Privacy Notice</button>
         </Link>
         <Link to="/terms">
-          <button>Terms of Service</button>
+          <button className={styles.footerButton}>Terms of Service</button>
         </Link>
-        <p>&copy; 2024 Stolen Items Reporting App</p>
+        <p className={styles.copyright}>&copy; 2024 Guardian Street Mapper App</p>
       </div>
     </footer>
   );
