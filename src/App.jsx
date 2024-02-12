@@ -1,19 +1,48 @@
-import React, { useState } from 'react';
+import React from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import styles from "./App.module.css";
+import Header from "./components/Header/";
+import MapComponent from "./components/MapComponent";
+import ReportForm from "./components/ReportForm/";
+import About from "./components/About/";
+// import CrimeDataComponent from "./components/CrimeDataComponent";
+import Footer from "./components/Footer/";
+import PrivacyNotice from "./components/PrivacyNotice";
+import TermsOfService from "./components/TermsOfService/";
+import TipsAndInfo from "./components/TipsAndInformation/";
+import Support from "./components/Support/";
+import ContactUs from "./components/ContactUs";
 
-import Header from './components/Header/Header';
-import MapComponent from './components/MapComponent/MapComponent';
-import ReportForm from './components/ReportForm/ReportForm';
-import Footer from './components/Footer/Footer';
-import CrimeData from './components/Policedata';
 
 function App() {
   return (
-    <div className="App">
-      <Header />
+    <Router>
+      <div className={styles.App}>
+        <Header />
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/privacy" element={<PrivacyNotice />} />
+          <Route path="/terms" element={<TermsOfService />} />
+          <Route path="/tips" element={<TipsAndInfo />} />
+          <Route path="/support" element={<Support />} />
+          <Route path="/contact" element={<ContactUs />} />
+        </Routes>
+        <Footer />
+      </div>
+    </Router>
+  );
+}
+
+// Added to separate homepage from others
+function HomePage() {
+  return (
+    <div className={styles.homePage}>
       <MapComponent />
-      <CrimeData />
-      <ReportForm />
-      <Footer />
+      <div className={styles.formContainer}>
+        <ReportForm />
+      </div>
+      {/* <CrimeDataComponent /> */}
     </div>
   );
 }

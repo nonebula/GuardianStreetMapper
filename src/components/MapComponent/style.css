@@ -1,0 +1,25 @@
+/* style.css */
+* {
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
+}
+
+#root {
+  height:100vh;
+}
+
+.map-container {
+  width: calc(100% - 200px);
+  height: 50vh;
+  margin: 30px auto;
+  border: 2px solid rgb(122, 195, 238);
+  border-radius: 30px;
+  overflow: hidden;
+}
+
+.header {
+  padding: 10px;
+color: #235580;
+text-align: center;
+}
