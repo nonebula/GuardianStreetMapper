@@ -1,14 +1,14 @@
 import React from "react";
 import logo from "./logo.png";
 import { Navbar, Nav } from "react-bootstrap";
-import styles from "./Header.module.css"
+import styles from "./Header.module.css";
 
 function Header() {
   return (
     <header className={styles.header}>
-      <Navbar bg="body-tertiary" expand="lg">
-        <div className={styles.container}>
-          <Navbar.Brand href="/">
+      <Navbar className={styles.navbar} expand="lg">
+        {/* <div className={styles.container}> */}
+          <Navbar.Brand className={styles.logo} href="/">
             <img src={logo} alt="Application Logo" width="150" height="50" />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -20,7 +20,7 @@ function Header() {
               <Nav.Link className={styles.navLink} href="/contact">Contact Us</Nav.Link>
             </Nav>
           </Navbar.Collapse>
-        </div>
+        {/* </div> */}
       </Navbar>
     </header>
   );
