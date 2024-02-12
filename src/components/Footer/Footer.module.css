@@ -1,6 +1,6 @@
 @import "../../vars.css";
 
-
+/* Footer Styling */
 .footer {
     padding: 20px 0;
     text-align: center;
@@ -14,8 +14,9 @@
   
   .footerButton {
     padding: 7px;
-    margin-top: 5px;
+    margin-top: 100px;
     width: 200px;
+    color: var(--color-button-text);
     background-color: var(--color-button);
     border: none;
     border-radius: 4px;
@@ -23,10 +24,11 @@
   }
   
   .footerButton:hover {
+    color: var(--color-button-text-hover);
     background-color: var(--color-hover);
   }
   
   p.copyright {
-    color: #ffffff;
+    color: var(--color-text);
   }
   
