@@ -5,23 +5,6 @@ text-align: center;
 line-height: 40px;
 }
 
-.heading {
-padding: 10px;
-}
-
-.paragraph {
-
-}
-
-.numberedList {
-
-}
-
-.numberedItem {
-
-}
-
-
 .submitButton{
   padding: 7px;
   margin-top: 5px;
@@ -33,13 +16,9 @@ padding: 10px;
 }
 
 .submitButton:hover{
-  padding: 7px;
-  margin-top: 5px;
-  width: 300px;
   background-color: var(--color-button-hover);
   color: var(--color-button-text-hover);
-  border: none;
-  border-radius: 4px;
+
 }
 
 /* ReCaptcha Form Styling */

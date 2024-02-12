@@ -6,6 +6,36 @@
   height: 100%;
 }
 
+
+/* .card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
+
+.homePage {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center; 
+}
+
+.formContainer {
+  width: 60%; 
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+}
+
+
+
+
+/* Discarded CSS */
+
+
+
 /* #root {
   max-width: 1280px;
   margin: 0 auto;
@@ -26,142 +56,3 @@
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 } */
-
-/* ReCaptcha Form Styling */
-.input{
-  width: 295px;
-  height: 30px;
-  border: rgb(122, 195, 238) 2px solid;
-  display: block;
-  margin-bottom: 10px;
-  border-radius: 3px;
-}
-
-.input:focus{
-  border: none;
-}
-
-label{
-  display: block;
-  margin-bottom: 2px;
-  font-family: 'Roboto', Arial, sans-serif;
-}
-
-button{
-  padding: 7px;
-  margin-top: 5px;
-  width: 300px;
-  background-color: rgb(122, 195, 238);
-  border: none;
-  border-radius: 4px;
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-/* end */
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
-}
-
-/* Nav styling */
-.header {
-  background-color: rgb(122, 195, 238);
-  border: none;
-  padding: 20px 0;
-}
-
-.navbar {
-  border-bottom: 2px solid #eeeeee;
-}
-
-.navbar-brand img {
-  max-width: 100%;
-  height: auto;
-}
-
-.navbar-nav .nav-link {
-  color: #333333;
-  font-size: 16px;
-  margin-left: 20px;
-}
-
-.navbar-nav .nav-link:hover {
-  color: #007bff;
-}
-
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-/* Map Styling */
-
-
-/* Form Styling */
-
-
-/* About Styling */
-
-
-/* Tips & Info Styling */
-
-
-/* Support Styling */
-
-
-/* Contact Us Styling */
-
-
-/* Privacy Notice Styling */
-
-
-/* Terms of Service Styling */
-
-
-
-/* Footer Styling */
-.footer {
-  padding: 20px 0;
-  text-align: center;
-}
-
-.footer-buttons {
-  margin-bottom: 20px;
-  display: flex;
-}
-
-.footer-button {
-  padding: 7px;
-  margin-top: 5px;
-  width: 200px;
-  background-color: var(--color-button);
-  border: none;
-  border-radius: 4px;
-  margin-right: 10px;
-}
-
-.footer-button:hover {
-  background-color: var(--color-hover);
-}
-
-p.copyright {
-  color: #ffffff;
-}

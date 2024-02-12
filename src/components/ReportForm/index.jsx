@@ -92,7 +92,10 @@ const ReportForm = () => {
                 onChange={(e) => setLocation(e.target.value)}
               />
             </Form.Group>
-            <Form.Group className={styles.formGroup} controlId="theftDescription">
+            <Form.Group
+              className={styles.formGroup}
+              controlId="theftDescription"
+            >
               <Form.Label className={styles.formLabels}>
                 Brief description of the theft:
               </Form.Label>
@@ -109,7 +112,11 @@ const ReportForm = () => {
               <Captcha setCaptchaVerified={setCaptchaVerified} />
             )}
             {captchaVerified && (
-              <Button className={styles.submitButton} variant="primary" type="submit">
+              <Button
+                className={styles.submitButton}
+                variant="primary"
+                type="submit"
+              >
                 Confirm Submission
               </Button>
             )}
