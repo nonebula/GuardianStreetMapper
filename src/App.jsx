@@ -11,12 +11,12 @@ import TermsOfService from "./components/TermsOfService/";
 import TipsAndInfo from "./components/TipsAndInformation/";
 import Support from "./components/Support/";
 import ContactUs from "./components/ContactUs";
-import "./App.css";
+import styles from "./App.module.css";
 
 function App() {
   return (
     <Router>
-      <div className="App">
+      <div className={styles.App}>
         <Header />
         <Routes>
           <Route path="/" element={<HomePage />} />

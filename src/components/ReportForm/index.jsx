@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Button, Form } from "react-bootstrap";
 import Captcha from "../Captcha";
-import "./style.css";
+import styles from "./ReportForm.module.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 const ReportForm = () => {
@@ -51,7 +51,7 @@ const ReportForm = () => {
   };
 
   return (
-    <div className="report-form">
+    <div className={styles.ReportForm}>
       {!formSubmitted && (
         <>
           <h2>Stolen Item Report</h2>
@@ -105,7 +105,7 @@ const ReportForm = () => {
         </>
       )}
       {formSubmitted && (
-        <div className="thank-you-message">
+        <div className={styles.thankYouMessage}>
           <h3>Thank you for submitting!</h3>
           <p>
             Your report has been added to our map. If you have not already,
@@ -114,7 +114,7 @@ const ReportForm = () => {
           </p>
         </div>
       )}
-      {showNotification && <div className="notification">Form submitted!</div>}
+      {showNotification && <div className={styles.notification}>Form submitted!</div>}
     </div>
   );
 };

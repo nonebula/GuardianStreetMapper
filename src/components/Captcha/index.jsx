@@ -1,4 +1,6 @@
 import React, { useEffect } from "react";
+
+import styles from "./Captcha.module.css";
 // v2 only - import ReCAPTCHA from 'react-google-recaptcha';
 
 // reCAPTCHA should be added and attached to submission of a theft and/or incident.

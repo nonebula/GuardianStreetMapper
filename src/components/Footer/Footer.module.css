@@ -1,0 +1,32 @@
+@import "../../vars.css";
+
+
+.footer {
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .footerButtons {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .footerButton {
+    padding: 7px;
+    margin-top: 5px;
+    width: 200px;
+    background-color: var(--color-button);
+    border: none;
+    border-radius: 4px;
+    margin-right: 10px;
+  }
+  
+  .footerButton:hover {
+    background-color: var(--color-hover);
+  }
+  
+  p.copyright {
+    color: #ffffff;
+  }
+  

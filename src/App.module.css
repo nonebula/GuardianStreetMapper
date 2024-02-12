@@ -1,4 +1,12 @@
-#root {
+@import "./vars.css";
+
+.App {
+  background-color: var(--color-bg);
+  width: 100%;
+  height: 100%;
+}
+
+/* #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
@@ -17,7 +25,7 @@
 }
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
-}
+} */
 
 /* ReCaptcha Form Styling */
 .input{
@@ -47,7 +55,6 @@ button{
   border: none;
   border-radius: 4px;
 }
-/* end */
 
 @keyframes logo-spin {
   from {
@@ -64,6 +71,8 @@ button{
   }
 }
 
+/* end */
+
 .card {
   padding: 2em;
 }
@@ -72,6 +81,7 @@ button{
   color: #888;
 }
 
+/* Nav styling */
 .header {
   background-color: rgb(122, 195, 238);
   border: none;
@@ -101,28 +111,55 @@ button{
   max-width: 1200px;
   margin: 0 auto;
 }
+
+/* Map Styling */
+
+
+/* Form Styling */
+
+
+/* About Styling */
+
+
+/* Tips & Info Styling */
+
+
+/* Support Styling */
+
+
+/* Contact Us Styling */
+
+
+/* Privacy Notice Styling */
+
+
+/* Terms of Service Styling */
+
+
+
+/* Footer Styling */
 .footer {
-  background-color: rgb(122, 195, 238);
   padding: 20px 0;
   text-align: center;
 }
 
 .footer-buttons {
   margin-bottom: 20px;
+  display: flex;
 }
 
 .footer-button {
   padding: 7px;
   margin-top: 5px;
   width: 200px;
-  background-color: #ffffff;
+  background-color: var(--color-button);
   border: none;
   border-radius: 4px;
   margin-right: 10px;
 }
 
 .footer-button:hover {
-  background-color: #e0e0e0;
+  background-color: var(--color-hover);
 }
 
 p.copyright {
