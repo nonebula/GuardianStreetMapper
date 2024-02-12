@@ -1,14 +1,27 @@
 @import "../../vars.css";
 
 .container {
-text-align: center;
-line-height: 40px;
-}
-
-.heading {
-padding: 10px;
-}
-
-.paragraph {
-
-}
+    text-align: center;
+    line-height: 40px;
+    padding-top: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
+  }
+  
+  .heading {
+    padding: 10px;
+    font-weight: bolder;
+  }
+  
+  .paragraph {
+    margin-top: 50px;
+    font-size: var(--size-text);
+    text-align: justify;
+  }
+  
+  .numberedList {
+  }
+  
+  .numberedItem {
+  }
+  
