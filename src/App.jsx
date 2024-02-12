@@ -13,6 +13,7 @@ import TipsAndInfo from "./components/TipsAndInformation/";
 import Support from "./components/Support/";
 import ContactUs from "./components/ContactUs";
 
+
 function App() {
   return (
     <Router>
