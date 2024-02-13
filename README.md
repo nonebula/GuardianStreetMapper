@@ -4,20 +4,18 @@
 
 ## Description 
 
-This project is structured in building a website application called Guardian Street Mapper which will be used in tracking the theft rate around different area and also be suggesting the nearest police station. The intention behind this app is to make users aware of the crime rate within choosen area in order to plan their day to day activities. Users can read about other users experience within the area they wish to explore.This app runs in the browser and features Node, Jason, Vite, Bootstrap, API and React leaflet.
+This team project was structured around building a website called Guardian Street Mapper, which will be used to track the theft rate around different boroughs in London. It will also suggest the nearest police station to the incident. The intention behind this app is to make users aware of the crime rate within the choosen area in order to plan their day to day activities. Visitors to the website can read about other users experience within the area they wish to explore. This app runs in the browser and features Node, Json, Vite, Bootstrap, API and React leaflet.
 
-Furthermore, this website is a front-end interactive webpage which reacts completely to reacts commands and also user input about any current incident or situation in any chossen area. It enables the current user to access informations and crime in different area.
+Furthermore, this website is a front-end interactive webpage which reacts completely to commands, and user input, about any current incident or situation in any chosen area around London.
 
 ## Installation
 
-This website is a front-end interactive webpage which reacts completely to user inputs, run in  the browser and features Node, Jason, Vite, Bootstrap, API and React leaflet. 
+This website is a front-end interactive webpage which reacts completely to user inputs, runs in  the browser and features Node, Json, Vite, Bootstrap, API and React leaflet. 
 
 - To access the Guardian Street Mapper [follow the link]().
 - Open the link on your preferred web browser.
 - Explore the website by entering any crime event around the area
   
-
-
 [Click this link to access the Guardian Street Mapper]()
 
 ## Usage 
@@ -62,14 +60,11 @@ Comprehensive User Acceptance Testing has been carried out.
 
 Collaborators - Please see repository for the team names.
 
-API's used : Police Data API, 
+API's used : Police Data API, Leaflet Map API
 
 ## License
 
-MIT License
-
-
-
+MIT License - Please see the Repository for mroe information
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
