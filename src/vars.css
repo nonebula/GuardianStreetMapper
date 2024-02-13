@@ -1,22 +1,22 @@
-:root {    
-    --color-text: #3D3D3D;
-    --color-primary: #235580;
-    --color-secondary: #EBECE9;
-    --color-accent: #B3001B;
-    --color-bg: #FBFBFF;
+:root {
+  --color-text: #3d3d3d;
+  --color-primary: #19377b;
+  --color-secondary: #2d50a3;
+  --color-accent: #b3001b;
+  --color-bg: #fbfbff;
 
-    --color-link: #FBFBFF;
-    --color-link-hover: #9898a9;
+  --color-link: #b3001b;
+  --color-link-hover: #e00022;
 
-    --color-button: #B3001B;
-    --color-button-text: #EBECE9;
-    --color-button-hover: #E00022;
-    --color-button-text-hover: #ebece9cf;
-    --color-button-alert: yellow;
-    --color-button-alert-hover: gold;
+  --color-button: #19377b;
+  --color-button-text: #ebece9;
+  --color-button-hover: #2d50a3;
+  --color-button-text-hover: #ebece9cf;
+  --color-button-alert: #b3001b;
+  --color-button-alert-hover: #e00022;
 
-    --size-heading: 48px;
-    --size-secondary-heading: 32px;
-    --size-text: 24px;
-    --size-captions: 18px;
+  --size-heading: 48px;
+  --size-secondary-heading: 32px;
+  --size-text: 24px;
+  --size-captions: 18px;
 }
