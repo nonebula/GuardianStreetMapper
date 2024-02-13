@@ -11,7 +11,7 @@
 
 .map-container {
   width: calc(100% - 200px);
-  height: 65vh;
+  height: 50vh;
   margin: 30px auto;
   border: 2px solid rgb(122, 195, 238);
   border-radius: 30px;
@@ -19,7 +19,21 @@
 }
 
 .header {
-  padding: 10px;
-color: #235580;
+ padding: 10px;
+color: var(--color-primary);
 text-align: center;
+}
+
+
+
+.dropdown {
+  position: absolute;
+  top: 10%; 
+  left: 10%; 
+  z-index: 999; 
+}
+
+.dropdown select {
+  color: var(--color-primary);
+  border: 1px solid var(--color-primary);
 }
