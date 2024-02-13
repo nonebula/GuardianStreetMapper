@@ -2,13 +2,14 @@ import React from "react";
 
 import styles from "./About.module.css";
 
-
 const ContactUs = () => {
   return (
     <div className={styles.container}>
       <h1 className={styles.header}>About</h1>
       <p className={styles.paragraph}>
+
       Welcome to Guardian Street Mapper App, a dedicated platform for empowering communities through vigilant crime reporting and fostering a safer environment. Our mission is to provide a user-friendly, efficient, and secure way for individuals to report and stay informed about criminal activities within their communities.{" "}
+
       </p>
       <h2 className={styles.header}>Our Vision</h2>
       <p className={styles.paragraph}>

@@ -14,7 +14,7 @@
 
 .navbar {
   border-bottom: 2px solid #eeeeee;
-  background-color: var(--color-primary);
+  background-color: transparent;
   line-height: 40px;
   border: none;
   margin: 0 auto;
