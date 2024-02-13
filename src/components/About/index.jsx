@@ -7,43 +7,33 @@ const ContactUs = () => {
     <div className={styles.container}>
       <h1 className={styles.header}>About</h1>
       <p className={styles.paragraph}>
-        Welcome to Guardian Street Mapper, an innovative platform dedicated to
-        addressing the alarming surge in theft incidents that have plagued our
-        communities in recent times. In an era where thefts seem to occur at
-        unprecedented rates, the sense of security and trust within our
-        neighborhoods has been profoundly shaken. Indeed, the impact of theft
-        extends far beyond the material loss; it leaves individuals feeling
-        violated, vulnerable, and often deeply traumatized.
-        <br></br>
-        <br></br>
-        As someone who has personally experienced the distressing aftermath of
-        theft, I understand all too well the lasting repercussions it can have
-        on one's sense of safety and well-being. It is against this backdrop of
-        rising insecurity that Guardian Street Mapper emerges, driven by a
-        singular purpose: to shed light on the prevalence and patterns of theft
-        by meticulously mapping these incidents.
-        <br></br>
-        <br></br>
-        By providing a comprehensive database of theft occurrences, our platform
-        aims to empower both citizens and law enforcement agencies with vital
-        information crucial for crime prevention and response strategies.
-        Through collaborative efforts and heightened awareness, we endeavor to
-        foster safer, more vigilant communities where the threat of theft is
-        mitigated, and individuals can reclaim their peace of mind.
-        <br></br>
-        <br></br>
-        To contribute to our mission, users can easily add incidents to the map
-        without sharing any personal data beyond the incident location and type
-        of theft. Our platform prioritizes information sharing to empower people
-        with knowledge, ensuring that everyone has access to critical data while
-        maintaining their privacy.
-        <br></br>
-        <br></br>
-        Together, let's work towards creating a safer environment for all. Join
-        us in our mission to safeguard our streets and protect our collective
-        sense of security.{" "}
+
+      Welcome to Guardian Street Mapper App, a dedicated platform for empowering communities through vigilant crime reporting and fostering a safer environment. Our mission is to provide a user-friendly, efficient, and secure way for individuals to report and stay informed about criminal activities within their communities.{" "}
+
       </p>
+      <h2 className={styles.header}>Our Vision</h2>
+      <p className={styles.paragraph}>
+      At the core of our vision is the belief that everyone has the right to live in a safe and secure community. We aim to facilitate a collective effort to combat crime by bridging the gap between citizens and law enforcement. Through this app, we empower individuals to contribute to the well-being of their communities and create a positive impact on public safety.
+      </p>
+      <h3 className={styles.header}>Key Features</h3>
+      <ol className={styles.paragraph}>
+      <li><b>User-Friendly Interface:</b> Our app offers an intuitive and easy-to-navigate interface, ensuring that users can quickly report incidents and access relevant information with minimal effort.
+</li>
+
+<li><b> Anonymous Reporting:</b> We understand the importance of privacy and security. Users can report incidents anonymously, providing a safe space for individuals who may fear reprisals.
+</li>
+
+<li><b> Real-Time Incident Updates:</b> Stay informed about incidents in your area with real-time updates. Our app provides timely notifications, ensuring that users are aware of the latest developments.
+</li>
+
+<li><b>Community Engagement:</b> Foster a sense of community by connecting with other users. Share insights, tips, and support within our platform, building a network of empowered and informed individuals.
+</li>
+
+<li><b>Emergency Services Integration:</b> In case of emergencies, our app seamlessly integrates with emergency services, enabling a rapid and coordinated response to critical situations.
+</li>
+      </ol>
     </div>
+    
   );
 };
 
