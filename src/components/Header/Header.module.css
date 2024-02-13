@@ -9,7 +9,9 @@
 } */
 
 .heading {
-  padding: 10px;
+  padding: 20px;
+  font-weight: bolder;
+  color: var(--color-primary);
 }
 
 .navbar {
@@ -28,12 +30,16 @@
   text-align: left;
   max-width: 100%;
   height: auto;
+  font-weight: bolder;
 }
 
 .navLinks {
   display: flex;
   align-items: right;
-  color: var(--color-link);
+  color: var(--color-primary);
+  font-weight: bolder;
+  list-style: none;
+
 }
 
 .navLink {
