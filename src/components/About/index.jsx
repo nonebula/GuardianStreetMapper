@@ -31,7 +31,31 @@ const ContactUs = () => {
 
 <li><b>Emergency Services Integration:</b> In case of emergencies, our app seamlessly integrates with emergency services, enabling a rapid and coordinated response to critical situations.
 </li>
-      </ol>
+</ol>
+      <h2 className={styles.header}>How It Works</h2>
+      <ol className={styles.paragraph}></ol>
+      <li><b>Report an Incident:</b> Easily report incidents by providing essential details such as location, time, and a brief description. You can also upload photos and additional information to provide a comprehensive overview.
+      </li>
+
+      <li><b>Stay Informed:</b> Receive instant updates on reported incidents in your community. Guardian Street Mapper ensures that you are aware of ongoing developments, promoting a vigilant and informed community.
+      </li>
+
+      <li><b>Community Forum:</b> Engage with fellow community members through the app. Share safety tips, discuss concerns, and work together to create a safer environment.
+      </li>
+
+      <li><b>Emergency Assistance:</b> In critical situations, access emergency services directly through the app for a prompt and coordinated response.
+      </li>
+
+      <h2 className={styles.header}>Join the Guardian Street Mapper Community</h2>
+      <p className={styles.paragraph}>
+      By using Guardian Street Mapper, you become an integral part of a proactive community dedicated to enhancing safety and security. Together, we can create neighborhoods where everyone feels secure, informed, and empowered to contribute to community well-being.
+
+Thank you for choosing Guardian Street Mapper. If you have any questions or suggestions, feel free to reach out to us. Let's build safer communities together.
+
+Stay Secure,
+The Guardian Street Mapper Team
+</p>
+
     </div>
     
   );
