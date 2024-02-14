@@ -1,6 +1,3 @@
-import React from "react";
-import PrivacyNotice from "../PrivacyNotice";
-import TermsOfService from "../TermsOfService";
 import { Link } from "react-router-dom";
 import styles from "./Footer.module.css";
 

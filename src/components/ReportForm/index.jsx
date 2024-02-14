@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { Button, Form } from "react-bootstrap";
 import Captcha from "../Captcha";
 import "bootstrap/dist/css/bootstrap.min.css";

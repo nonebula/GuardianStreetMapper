@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { MapContainer as LeafletMap, TileLayer, Marker, Popup, useMap, GeoJSON } from 'react-leaflet';
 import "leaflet/dist/leaflet.css";
 import L from 'leaflet';
@@ -10,6 +10,7 @@ import boroughsData from "./data/boroughs.json";
 
 function Search(props) {
     const map = useMap(); 
+    // eslint-disable-next-line react/prop-types
     const { provider } = props;
 
     useEffect(() => {

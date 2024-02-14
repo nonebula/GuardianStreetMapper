@@ -1,5 +1,4 @@
-import React, { useEffect, useState } from "react";
-import axios from 'axios';
+import { useEffect, useState } from "react";
 
 import styles from "./Captcha.module.css";
 
@@ -20,6 +19,7 @@ const Captcha = () => {
 
   const handleCaptchaChange = (token) => {
     setCaptchaToken(token);
+    console.log(captchaToken);
   };
 
   const executeCaptcha = () => {
@@ -30,20 +30,20 @@ const Captcha = () => {
     });
   };
 
-  const handleSubmit = async () => {
-    try {
-      const response = await axios.post('/verify-recaptcha', { token: captchaToken });
-      const { success } = response.data;
-      if (success) {
-        console.log('reCAPTCHA verified, submitting form...');
-        triggerFormSubmission(); 
-      } else {
-        console.log('reCAPTCHA verification failed');
-      }
-    } catch (error) {
-      console.error('Error verifying reCAPTCHA:', error);
-    }
-  };
+  // const handleSubmit = async () => {
+  //   try {
+  //     const response = await axios.post('/verify-recaptcha', { token: captchaToken });
+  //     const { success } = response.data;
+  //     if (success) {
+  //       console.log('reCAPTCHA verified, submitting form...');
+  //       triggerFormSubmission(); 
+  //     } else {
+  //       console.log('reCAPTCHA verification failed');
+  //     }
+  //   } catch (error) {
+  //     console.error('Error verifying reCAPTCHA:', error);
+  //   }
+  // };
 
   return (
     <div>
