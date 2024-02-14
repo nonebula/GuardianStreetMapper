@@ -3,13 +3,13 @@ import styles from "./App.module.css";
 import Header from "./components/Header/";
 import MapComponent from "./components/MapComponent/";
 import ReportForm from "./components/ReportForm/";
-import About from "./components/About/index";
+import About from "./components/About/";
 import Footer from "./components/Footer/";
 import PrivacyNotice from "./components/PrivacyNotice/Index";
 import TermsOfService from "./components/TermsOfService/Index";
-import TipsAndInfo from "./components/TipsAndInformation/index";
-import Support from "./components/Support/index";
-import ContactUs from "./components/ContactUs/index";
+import TipsAndInfo from "./components/TipsAndInformation/";
+import Support from "./components/Support/";
+import ContactUs from "./components/ContactUs/";
 
 function App() {
   return (
