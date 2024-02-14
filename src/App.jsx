@@ -6,9 +6,9 @@ import ReportForm from "./components/ReportForm/";
 import About from "./components/About/";
 import Footer from "./components/Footer/";
 import PrivacyNotice from "./components/PrivacyNotice";
-import TermsOfService from "./components/TermsOfService/";
-import TipsAndInfo from "./components/TipsAndInformation/";
-import Support from "./components/Support/";
+import TermsOfService from "./components/TermsOfService";
+import TipsAndInfo from "./components/TipsAndInformation";
+import Support from "./components/Support";
 import ContactUs from "./components/ContactUs";
 
 function App() {
