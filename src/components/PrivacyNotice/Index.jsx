@@ -29,7 +29,7 @@ function PrivacyNotice() {
         We may use the information we collect from you for the following
         purposes:
       </p>
-      <ul className={styles.list}>
+      <ul>
         <li>Providing and improving our Services</li>
         <li>
           Displaying crime incident data on the map for public awareness and
@@ -48,7 +48,7 @@ function PrivacyNotice() {
       <p className={styles.paragraph}>
         We may share your information in the following circumstances:
       </p>
-      <ul className={styles.list}>
+      <ul>
         <li>
           With law enforcement agencies or authorities as required by law or to
           assist in investigations related to reported crime incidents
