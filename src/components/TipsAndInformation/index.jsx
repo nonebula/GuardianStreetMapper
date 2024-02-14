@@ -46,9 +46,27 @@ const TipsAndInfo = () => {
 
         <li><b>Community Watch Programs:</b> Participate in or support community watch programs to collectively enhance community safety.
         </li>
-
-
       </ol>
+
+      <h2 className={styles.heading}>Community Engagement</h2>
+      <ol className={styles.paragraph}></ol>
+      Contribute to a safer global community by actively engaging with the Guardian Street Mapper App:
+      <li><b>Spread Awareness:</b> Share information about the app with friends, family, and neighbors to encourage widespread usage.
+      </li>
+
+      <li><b>Educational Initiatives:</b> Host or participate in events that educate the global community about crime prevention and the importance of reporting.
+      </li>
+
+      <li><b>Collaborate with Authorities:</b> Work collaboratively with city and community law enforcement to address safety concerns and foster a sense of  community security.
+      </li>
+
+      <h2 className={styles.heading}>Frequently Asked Questions</h2>
+      <p className={styles.paragraph}></p>
+      Visit our [FAQ page]() for answers to common questions about using the Guardian Street Mapper App.
+
+      <h2 className={styles.heading}>Contact and Support</h2>
+      <p className={styles.paragraph}></p>
+      For additional assistance or inquiries, please contact our Guardian Street Mapper support team at support@guardianstreetmapperapp.com.
     </div>
   );
 };
