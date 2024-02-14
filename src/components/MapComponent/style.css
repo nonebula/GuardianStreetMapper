@@ -1,12 +1,12 @@
 /* style.css */
 * {
-  box-sizing:border-box;
-  margin:0;
-  padding:0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 #root {
-  height:100vh;
+  height: 100vh;
 }
 
 .map-container {
@@ -19,18 +19,16 @@
 }
 
 .heading {
- padding: 10px;
-color: var(--color-primary);
-text-align: center;
+  padding: 10px;
+  color: var(--color-primary);
+  text-align: center;
 }
-
-
 
 .dropdown {
   position: absolute;
-  top: 10%; 
-  left: 10%; 
-  z-index: 999; 
+  top: 10%;
+  left: 10%;
+  z-index: 999;
 }
 
 .dropdown select {

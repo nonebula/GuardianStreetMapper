@@ -59,7 +59,7 @@ function MapComponent() {
     return (
         <div className='container'>
             <div className="header">                
-                <h2 className='text mt-4'>London Street Theft Incidents </h2>
+                <h2 className='text mt-4 heading'>London Street Theft Incidents </h2>
                 <p className="text-muted mt-4">Guardian Street Mapper is a web application that provides users with insights into theft incidents in central London over the last month. With an alarming 703% increase in theft incidents, our application aims to shed light on this serious problem. On average, there are 3242 thefts per month in the area. Users can explore the map to see the distribution of theft incidents across different areas and streets, helping them stay informed and aware of their surroundings.</p>
                 <p className="text-muted mt-3">Please click on or select from the dropdown menu the borough to view theft crime incidents. Zoom in to see the streets, and click on the marker to see the name of the street where the incident occurred. Alternatively, you can enter an address to view incidents. </p>
             </div>
