@@ -6,7 +6,7 @@ import ReportForm from "./components/ReportForm/";
 import About from "./components/About/";
 import Footer from "./components/Footer/";
 import PrivacyNotice from "./components/PrivacyNotice/Index";
-import TermsOfService from "./components/TermsOfService/";
+import TermsOfService from "./components/TermsOfService/index";
 import TipsAndInfo from "./components/TipsAndInformation/";
 import Support from "./components/Support/";
 import ContactUs from "./components/ContactUs/";
