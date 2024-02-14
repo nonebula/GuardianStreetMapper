@@ -16,7 +16,6 @@
 .paragraph {
   margin-top: 50px;
   font-size: var(--size-text);
-  font-weight: bolder;
   text-align: justify;
 }
 
