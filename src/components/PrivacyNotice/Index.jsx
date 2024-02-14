@@ -1,4 +1,3 @@
-
 import styles from './Privacy.module.css'
 
 function PrivacyNotice() {
