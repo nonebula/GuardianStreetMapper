@@ -5,7 +5,6 @@ import Header from "./components/Header/";
 import MapComponent from "./components/MapComponent";
 import ReportForm from "./components/ReportForm/";
 import About from "./components/About/";
-// import CrimeDataComponent from "./components/CrimeDataComponent";
 import Footer from "./components/Footer/";
 import PrivacyNotice from "./components/PrivacyNotice";
 import TermsOfService from "./components/TermsOfService/";
@@ -13,10 +12,9 @@ import TipsAndInfo from "./components/TipsAndInformation/";
 import Support from "./components/Support/";
 import ContactUs from "./components/ContactUs";
 
-
 function App() {
   return (
-    <Router>
+    <Router basename="/GuardianStreetMapper">
       <div className={styles.App}>
         <Header />
         <Routes>
