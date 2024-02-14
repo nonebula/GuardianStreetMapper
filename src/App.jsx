@@ -39,7 +39,6 @@ function HomePage() {
       <div className={styles.formContainer}>
         <ReportForm />
       </div>
-      {/* <CrimeDataComponent /> */}
     </div>
   );
 }
