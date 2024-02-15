@@ -34,7 +34,7 @@ function TermsOfService() {
           Services
         </li>
       </ul>
-      <h3 className={styles.heading}>3. User Contributions</h3>
+      <h2 className={styles.heading}>3. User Contributions</h2>
       <p className={styles.paragraph}>
         You may have the opportunity to submit content or information through
         the Services, including crime reports or incident details. By submitting
@@ -43,7 +43,7 @@ function TermsOfService() {
         adapt, publish, translate, create derivative works from, distribute, and
         display such content or information in connection with the Services.
       </p>
-      <h3 className={styles.heading}>4. Intellectual Property Rights</h3>
+      <h2 className={styles.heading}>4. Intellectual Property Rights</h2>
       <p className={styles.paragraph}>
         The Website, Services, and their entire contents, features, and
         functionality (including but not limited to all information, software,
@@ -51,7 +51,7 @@ function TermsOfService() {
         licensors and are protected by copyright, trademark, patent, trade
         secret, and other intellectual property or proprietary rights laws.
       </p>
-      <h3 className={styles.heading}>5. Limitation of Liability</h3>
+      <h2 className={styles.heading}>5. Limitation of Liability</h2>
       <p className={styles.paragraph}>
         In no event shall we, our affiliates, directors, employees, agents, or
         licensors be liable for any indirect, incidental, special,
@@ -59,20 +59,20 @@ function TermsOfService() {
         profits, data, use, or other intangible losses, arising out of or
         relating to your use of or inability to use the Services.
       </p>
-      <h3 className={styles.heading}>6. Governing Law</h3>
+      <h2 className={styles.heading}>6. Governing Law</h2>
       <p className={styles.paragraph}>
         These Terms shall be governed by and construed in accordance with the
         laws of Greater London, without regard to its conflict of law
         provisions.
       </p>
-      <h3 className={styles.heading}>7. Changes to Terms</h3>
+      <h2 className={styles.heading}>7. Changes to Terms</h2>
       <p className={styles.paragraph}>
         We reserve the right to update or change these Terms at any time. Any
         changes will be effective immediately upon posting the updated Terms on
         the Website. Your continued use of the Website or Services after any
         such changes constitutes your acceptance of the new Terms.
       </p>
-      <h3 className={styles.heading}>8. Contact Us</h3>
+      <h2 className={styles.heading}>8. Contact Us</h2>
       <p className={styles.paragraph}>
         If you have any questions or concerns about these Terms, please contact
         us at [Your Contact Information].
