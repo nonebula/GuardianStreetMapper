@@ -3,8 +3,8 @@
 .container {
   line-height: 40px;
   padding-top: 50px;
-  padding-left: 150px;
-  padding-right: 150px;
+  padding-left: 15%;
+  padding-right: 15%;
 }
 
 h1 {
@@ -33,10 +33,4 @@ h2 {
   margin-top: 30px;
   margin-bottom: 30px;
   text-decoration: none;
-}
-
-@media only screen and (max-width: 576px) {
-  .container {
-    padding: 5px;
-  }
 }
