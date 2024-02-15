@@ -3,25 +3,25 @@ import styles from "./TermsOfService.module.css";
 function TermsOfService() {
   return (
     <div className={styles.container}>
-      <h2 className={styles.heading}>Terms of Service</h2>
+      <h1 className={styles.heading}>Terms of Service</h1>
       <p className={styles.paragraph}>
         These Terms of Service (&quot;Terms&quot;) govern your use of Guardian
         Street Mapper crime reporting website [Your Website URL] and any related
         services, applications, or features offered by us. By accessing or using
         the Website or Services, you agree to be bound by these Terms.
       </p>
-      <h3 className={styles.heading}>1. Acceptance of Terms</h3>
+      <h2 className={styles.heading}>1. Acceptance of Terms</h2>
       <p className={styles.paragraph}>
         By accessing or using the Website or Services, you agree to be bound by
         these Terms. If you do not agree to these Terms, you may not access or
         use the Website or Services.
       </p>
-      <h3 className={styles.heading}>2. Use of Services</h3>
+      <h2 className={styles.heading}>2. Use of Services</h2>
       <p className={styles.paragraph}>
         You may use the Services only for lawful purposes and in accordance with
         these Terms. You agree not to:
       </p>
-      <ul>
+      <ul className={styles.list}>
         <li>Violate any applicable laws, regulations, or third-party rights</li>
         <li>
           Use the Services in any manner that could interfere with, disrupt,

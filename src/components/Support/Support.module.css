@@ -16,5 +16,5 @@
   .paragraph {
     margin-top: 50px;
     font-size: var(--size-text);
-    text-align: justify;
+    text-align: left;
   }

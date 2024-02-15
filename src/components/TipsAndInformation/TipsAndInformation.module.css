@@ -1,20 +1,36 @@
 @import "../../vars.css";
 
 .container {
-  text-align: center;
   line-height: 40px;
   padding-top: 50px;
   padding-left: 150px;
   padding-right: 150px;
 }
 
-.heading {
-  padding: 10px;
+h1 {
+  margin-top: 30px;
   font-weight: bolder;
+  text-decoration: underline;
+  color: var(--color-primary);
+}
+
+h2 {
+  margin-top: 30px;
+  font-weight: bolder;
+  color: var(--color-primary);
 }
 
 .paragraph {
-  margin-top: 50px;
+  margin-top: 30px;
+  margin-bottom: 30px;
   font-size: var(--size-text);
-  text-align: justify;
+  text-align: left;
+}
+
+.list {
+  font-size: var(--size-text);
+  text-align: left;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-decoration: none;
 }

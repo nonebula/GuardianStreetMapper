@@ -3,14 +3,14 @@ import styles from "./Privacy.module.css";
 function PrivacyNotice() {
   return (
     <div className={styles.container}>
-      <h2 className={styles.heading}>Privacy Notice</h2>
+      <h1 className={styles.heading}>Privacy Notice</h1>
       <p className={styles.paragraph}>
         This Privacy Notice explains how Guardian Street Mapper collects, uses,
         shares, and protects information obtained from users of our website
         [Your Website URL] and any related services, applications, or features
         offered by us.
       </p>
-      <h3 className={styles.heading}>Information We Collect</h3>
+      <h2 className={styles.heading}>Information We Collect</h2>
       <p className={styles.paragraph}>
         <strong>Location Information:</strong> When you interact with our
         Website and use our Services to input the location of a crime incident
@@ -24,12 +24,12 @@ function PrivacyNotice() {
         description of the incident, and any other relevant information provided
         by you.
       </p>
-      <h3 className={styles.heading}>How We Use Your Information</h3>
+      <h2 className={styles.heading}>How We Use Your Information</h2>
       <p className={styles.paragraph}>
         We may use the information we collect from you for the following
         purposes:
       </p>
-      <ul>
+      <ul className={styles.orderedList}>
         <li>Providing and improving our Services</li>
         <li>
           Displaying crime incident data on the map for public awareness and
@@ -44,11 +44,11 @@ function PrivacyNotice() {
           information related to crime incidents or our Services
         </li>
       </ul>
-      <h3 className={styles.heading}>Information Sharing</h3>
+      <h2 className={styles.heading}>Information Sharing</h2>
       <p className={styles.paragraph}>
         We may share your information in the following circumstances:
       </p>
-      <ul>
+      <ul className={styles.orderedList}>
         <li>
           With law enforcement agencies or authorities as required by law or to
           assist in investigations related to reported crime incidents
@@ -62,14 +62,14 @@ function PrivacyNotice() {
           law
         </li>
       </ul>
-      <h3 className={styles.heading}>Data Security</h3>
+      <h2 className={styles.heading}>Data Security</h2>
       <p className={styles.paragraph}>
         We take appropriate measures to protect the information we collect from
         unauthorized access, disclosure, alteration, or destruction. However,
         please be aware that no security measures are completely foolproof, and
         we cannot guarantee the security of your information.
       </p>
-      <h3 className={styles.heading}>Your Choices</h3>
+      <h2 className={styles.heading}>Your Choices</h2>
       <p className={styles.paragraph}>
         You have the option to voluntarily input information about crime
         incidents onto our Website. However, please consider the sensitivity of
@@ -77,7 +77,7 @@ function PrivacyNotice() {
         or identifying information of individuals involved in the crime
         incident, unless necessary and with their consent.
       </p>
-      <h3 className={styles.heading}>Child Privacy</h3>
+      <h2 className={styles.heading}>Child Privacy</h2>
       <p className={styles.paragraph}>
         Our Website and Services are not intended for children under the age of
         13. We do not knowingly collect personal information from children under
@@ -85,16 +85,11 @@ function PrivacyNotice() {
         provided us with personal information, please contact us to request
         deletion.
       </p>
-      <h3 className={styles.heading}>Changes to this Privacy Notice</h3>
+      <h2 className={styles.heading}>Changes to this Privacy Notice</h2>
       <p className={styles.paragraph}>
         We reserve the right to update or change this Privacy Notice at any
         time. Any changes will be effective immediately upon posting the updated
         Privacy Notice on our Website.
-      </p>
-      <h3 className={styles.heading}>Contact Us</h3>
-      <p className={styles.paragraph}>
-        If you have any questions or concerns about this Privacy Notice or our
-        privacy practices, please contact us at [Your Contact Information].
       </p>
     </div>
   );

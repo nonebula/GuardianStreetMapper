@@ -11,7 +11,7 @@ const TipsAndInfo = () => {
         important information related to crime reporting.
       </p>
       <h2 className={styles.heading}>Reporting Guidelines</h2>
-      <ol className={styles.paragraph}>
+      <ol className={styles.list}>
         When using the Guardian Street Mapper App, follow these best practices
         to enhance the accuracy and effectiveness of your incident reports:
         <li>
@@ -36,7 +36,7 @@ const TipsAndInfo = () => {
         </li>
       </ol>
       <h2 className={styles.heading}>Safety Tips</h2>
-      <ol className={styles.paragraph}>
+      <ol className={styles.list}>
         Help promote personal and community safety by following these general
         safety tips:
         <li>
@@ -62,7 +62,7 @@ const TipsAndInfo = () => {
         </li>
       </ol>
       <h2 className={styles.heading}>Community Engagement</h2>
-      <ol className={styles.paragraph}></ol>
+      <ol className={styles.list}>
       Contribute to a safer global community by actively engaging with the
       Guardian Street Mapper App:
       <li>
@@ -79,14 +79,12 @@ const TipsAndInfo = () => {
         community law enforcement to address safety concerns and foster a sense
         of community security.
       </li>
-      <h2 className={styles.heading}>Frequently Asked Questions</h2>
-      <p className={styles.paragraph}></p>
-      Visit our [FAQ page]() for answers to common questions about using the
-      Guardian Street Mapper App.
+      </ol>
       <h2 className={styles.heading}>Contact and Support</h2>
-      <p className={styles.paragraph}></p>
-      For additional assistance or inquiries, please contact our Guardian Street
-      Mapper support team at support@guardianstreetmapperapp.com.
+      <p className={styles.paragraph}>
+        For additional assistance or inquiries, please contact our Guardian
+        Street Mapper support team at support@guardianstreetmapperapp.com.
+      </p>
     </div>
   );
 };
