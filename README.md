@@ -1,6 +1,6 @@
 # Guardian Street Mapper
 
-## Description 
+## Description
 
 This team project was structured around building a website called Guardian Street Mapper, which will be used to track the theft rate around different boroughs in London. It will also suggest the nearest police station to the incident. The intention behind this app is to make users aware of the crime rate within the choosen area in order to plan their day to day activities. Visitors to the website can read about other users experience within the area they wish to explore. This app runs in the browser and features Node, Json, Vite, Bootstrap, API and React leaflet.
 
@@ -8,13 +8,13 @@ Furthermore, this website is a front-end interactive webpage which reacts comple
 
 ## Installation
 
-This website is a front-end interactive webpage which reacts completely to user inputs, runs in  the browser and features Node, Json, Vite, Bootstrap, API and React leaflet. 
+This website is a front-end interactive webpage which reacts completely to user inputs, runs in the browser and features Node, Json, Vite, Bootstrap, API and React leaflet.
 
 - To access the Guardian Street Mapper [follow the link]().
 - Open the link on your preferred web browser.
 - Explore the website by entering any crime event around the area
 
-## Usage 
+## Usage
 
 This app is being developed with the following features:
 
@@ -36,22 +36,24 @@ This app is being developed with the following features:
 
 - **Report an Incident**: Contribute to community safety by reporting incidents you witness. Provide accurate details for better information sharing.
 
-![Main Page]()        
+![Main Page]()
 
 ![My Favourites page]()
+
+![Guardian Street Mapper Screenshot](./src/assets/guardianStreetMapper.png)
 
 ## Features left to implement:
 
 - Form to feed into map and print on map (attach image if desired).
--  Backend built out for global use.
--  Map coverage to whole of UK (possibly further).
--  Active information sharing with law enforcement.
--  Potential development into mobile app.
--  Receive push notifications for incidents in your chosen area, on crime types you’re interested in.
+- Backend built out for global use.
+- Map coverage to whole of UK (possibly further).
+- Active information sharing with law enforcement.
+- Potential development into mobile app.
+- Receive push notifications for incidents in your chosen area, on crime types you’re interested in.
 
 ## Testing
 
-Comprehensive User Acceptance Testing has been carried out. 
+Comprehensive User Acceptance Testing has been carried out.
 
 ## Credits
 
