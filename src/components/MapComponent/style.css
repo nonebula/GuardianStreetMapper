@@ -10,7 +10,7 @@
 }
 
 .map-container {
-  width: calc(100% - 200px);
+  width: 75%;
   height: 50vh;
   margin: 30px auto;
   border: 2px solid var(--color-primary);
